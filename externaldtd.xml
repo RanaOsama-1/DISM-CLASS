@@ -1,0 +1,8 @@
+<!ELEMENT students (student)+>
+<!ELEMENT student (id,name,(email|phone)*,age)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ATTLIST student centerID  CDATA #REQUIRED>

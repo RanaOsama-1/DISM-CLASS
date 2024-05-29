@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="externaldtd.xml" type="application/xml-dtd"?>
+
+<students>
+    <student centerID="sfc">
+        <id>1589121</id>
+        <name>ali</name>
+        <email>ali@gmail.com</email>
+       <phone></phone>
+        <age>25</age>
+    </student>
+    <student centerID="msg">
+        <id>1589121</id>
+        <name>ali</name>
+        <email></email>
+        <phone>01021542</phone>
+        <age>25</age>
+    </student>
+    <student centerID="nm">
+        <id>1589121</id>
+        <name>ali</name>
+       
+        <phone>01021542</phone>
+        <age>25</age>
+    </student>
+    <student centerID="sfc">
+        <id>1589121</id>
+        <name>ali</name>
+        <email>ali@gmail.com</email>
+    
+        <age>25</age>
+    </student>
+</students>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<batch9b>
+
+<student>
+    <name>raees</name>
+    <course>dism</course>
+    <semister>second</semister>
+    <fees>8500</fees>
+</student>
+
+<student>
+    <name>ahsan</name>
+    <course>dism</course>
+    <semister>second</semister>
+    <fees>8500</fees>
+</student>
+
+<student>
+    <name>mushtaq</name>
+    <course>dism</course>
+    <semister>second</semister>
+    <fees>8500</fees>
+</student>
+
+</batch9b>
