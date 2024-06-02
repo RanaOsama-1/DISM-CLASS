@@ -1,0 +1,22 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="company">
+        <xsd:complexType>
+           <xsd:sequence>
+            <xsd:element name="employee">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="em_id" type="xsd:integer"></xsd:element>
+                   <xsd:element name="em_name" >
+                    <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:pattern value="[A-Za-z\s]{3,16}"></xsd:pattern>
+                    </xsd:restriction>
+                    </xsd:simpleType>
+                   </xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+           </xsd:sequence> 
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
